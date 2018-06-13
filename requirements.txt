@@ -1,3 +1,7 @@
-python-dotenv
-ipython
+csv
+dotenv
+json
+os
 requests
+datetime
+pytest
