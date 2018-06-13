@@ -98,7 +98,6 @@ if __name__ == '__main__':
     symbol = input("Please input a stock symbol (e.g. 'NFLX'): ")
 
 # VALIDATION 1 - VALID STOCK SYMBOL-TYPE ENTRY [NO REQUEST]
-# TODO: correct length??
     try:
         float(symbol)
         quit("NOT VALID. EXPECTING NON-NUMERIC SYMBOL")
@@ -148,10 +147,3 @@ if __name__ == '__main__':
     print(f"+ Recent Average High Price: ${max_high_price}")
     print(f"+ Recent Average Low Price: ${min_low_price}")
     print(f"+ Recommendation: {buy_sell_recco}")
-
-
-    # TODO: GITHUB
-
-
-    # TODO: requirements.txt file
-    # TODO: readme file
